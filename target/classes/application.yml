@@ -1,0 +1,16 @@
+server:
+  port: 8090
+  context-path: /
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@127.0.0.1:1521:XE
+    username: HT1706
+    password: HT1706
+  mvc:
+    view:
+      prefix: classpath:/templates/
+      suffix: .html
+mybatis:
+  config-location: classpath:/mybatis/mybatis-config.xml
+  mapper-locations: classpath:/mybatis/mappers/*.xml

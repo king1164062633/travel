@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="traval:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="traval-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="traval:war exploded" />
+    </root>
+  </artifact>
+</component>
